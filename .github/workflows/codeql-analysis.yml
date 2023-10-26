@@ -21,6 +21,7 @@ on:
     branches: [ develop ]
     paths-ignore:
       - 'static/**'
+  workflow_dispatch:
 
 jobs:
   analyze:
